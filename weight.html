@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv =”Cache-Control” content =”no-cache”/>
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="Pragma" CONTENT="no-cache">
+    <meta name="description" content="Jairo Ramirez · Administrador de empresas & Frontend Developer | Estoy seguro que el sueño m&aacute;s bonito de todos los venezolanos es la Venezuela que siempre llevamos en el coraz&oacute;n." />
+    <title>Jairo Ramirez</title>
+    <link rel="shorcut icon" href="../img/flaticon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="weight.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-img">
+      <a href="../index.html"><img src="../img/logo-principal.svg" alt="Logo principal de Jairo"></a>
+    </div>
+    <div class="nav-menu">
+    </div>
+  </nav>
+  <div class="up-main">
+    <div class="main">
+      <h2>Calcular porcentaje de grasa corporal</h3>
+
+        <form action="porcentajeForm">
+
+          <div class="pliegues">
+
+            <div class="box1">
+              <label for="inputBiceps">
+                Pliegue B&iacute;ceps:
+              </label>
+              <input id="inputBiceps" type="number" placeholder="mm">
+            </div>
+
+            <div class="box1">
+              <label for="inputTriceps">
+                Pliegue Tr&iacute;ceps:
+              </label>
+              <input id="inputTriceps" type="number" placeholder="mm">
+            </div>
+
+            <div class="box1">
+              <label for="inputSubescapular">
+                Pliegue Subescapular:
+              </label>
+              <input id="inputSubescapular" type="number" placeholder="mm">
+            </div>
+
+            <div class="box1">
+              <label for="inputCrestaI">
+                Pliegue Cresta Il&iacute;aca:
+              </label>
+              <input id="inputCrestaI" type="number" placeholder="mm">
+            </div>
+
+            <div class="box2">
+              <label for="inputSex" id="selectSex">
+                Selecciona Sexo:
+              </label>
+              <select class="cupons" name="cupons" id="inputSex">
+                <option value="0">--</option>
+                <option value="1">Hombre</option>
+                <option value="2">Mujer</option>
+              </select>
+            </div>
+
+            <div class="box2">
+              <label for="inputAge" id="selectAge">
+                Selecciona Edad:
+              </label>
+              <select class="cupons" name="cupons" id="inputAge">
+                <option value="0">--</option>
+                <option value="1">16-19 años</option>
+                <option value="2">20-29 años</option>
+                <option value="3">30-39 años</option>
+                <option value="4">40-49 años</option>
+                <option value="5">50 años o m&aacute;s</option>
+              </select>
+            </div>
+
+          </div>
+
+          <div id="calcButton">
+            <button id="buttom" type="button" onclick="manFinal()">
+              Calcular
+            </button>
+          </div>
+
+      </form>
+
+        <div>
+          <h4 id="resultG"></h4>
+        </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <section>
+      <p>© 2022 Jairo Ramirez. Todos los derechos reservados.</p>
+    </section>
+  </footer>
+<script src="./weight.js"></script>
+</body>
+</html>
