@@ -6,14 +6,6 @@ let subescapular = document.getElementById("inputSubescapular");
 let crestaI = document.getElementById("inputCrestaI");
 let result = document.getElementById("resultG");
 
-// let sex = 1;
-// let age = 3;
-// let biceps = 5;
-// let triceps = 7;
-// let subescapular = 15;
-// let crestaI = 18;
-
-
 let estC = function (){
     if (sex.value==0 && age.value==0) {
       let C = 0;
