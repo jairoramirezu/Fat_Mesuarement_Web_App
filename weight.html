@@ -17,7 +17,7 @@
 <body>
   <nav class="nav">
     <div class="nav-img">
-      <a href="../index.html"><img src="../img/logo-principal.svg" alt="Logo principal de Jairo"></a>
+      <!-- <a href="../index.html"><img src="../img/logo-principal.svg" alt="Logo principal de Jairo"></a> -->
     </div>
     <div class="nav-menu">
     </div>
@@ -34,35 +34,35 @@
               <label for="inputBiceps">
                 Pliegue B&iacute;ceps:
               </label>
-              <input id="inputBiceps" type="number" placeholder="mm">
+              <input id="inputBiceps" type="number" placeholder="mm" required="true">
             </div>
 
             <div class="box1">
               <label for="inputTriceps">
                 Pliegue Tr&iacute;ceps:
               </label>
-              <input id="inputTriceps" type="number" placeholder="mm">
+              <input id="inputTriceps" type="number" placeholder="mm" required="true">
             </div>
 
             <div class="box1">
               <label for="inputSubescapular">
                 Pliegue Subescapular:
               </label>
-              <input id="inputSubescapular" type="number" placeholder="mm">
+              <input id="inputSubescapular" type="number" placeholder="mm" required="true">
             </div>
 
             <div class="box1">
               <label for="inputCrestaI">
                 Pliegue Cresta Il&iacute;aca:
               </label>
-              <input id="inputCrestaI" type="number" placeholder="mm">
+              <input id="inputCrestaI" type="number" placeholder="mm" required="true">
             </div>
 
             <div class="box2">
               <label for="inputSex" id="selectSex">
                 Selecciona Sexo:
               </label>
-              <select class="cupons" name="cupons" id="inputSex">
+              <select class="cupons" name="cupons" id="inputSex" required="true">
                 <option value="0">--</option>
                 <option value="1">Hombre</option>
                 <option value="2">Mujer</option>
@@ -73,7 +73,7 @@
               <label for="inputAge" id="selectAge">
                 Selecciona Edad:
               </label>
-              <select class="cupons" name="cupons" id="inputAge">
+              <select class="cupons" name="cupons" id="inputAge" required="true">
                 <option value="0">--</option>
                 <option value="1">16-19 años</option>
                 <option value="2">20-29 años</option>
@@ -86,7 +86,7 @@
           </div>
 
           <div id="calcButton">
-            <button id="buttom" type="button" onclick="manFinal()">
+            <button id="buttom" type="button" onclick="calc()">
               Calcular
             </button>
           </div>
