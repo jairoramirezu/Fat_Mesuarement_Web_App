@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,15 +7,12 @@
 html {
   font-size: 62.5%;
   font-family: 'Inter', sans-serif;
-  height: 100%;
-  width: 100%;
 }
 
 body {
   background-color: #3DB2FF;
-  height: 100%;
-  position: relative;
 }
+
 
 body::before{
   background: linear-gradient(#FF2442,#FFB830);
@@ -42,22 +38,9 @@ body::after{
   z-index: -1;
 }
 
-.nav {
-  align-items: center;
-  display: flex;
-  height: 40px;
-  justify-content: center;
-  padding: 36px;
-  width: 100%;
-}
-
-.nav img {
-  width: 40px;
-}
-
 .main {
   align-items: center;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
 }
@@ -133,19 +116,6 @@ body::after{
 #resultDes {
   margin-top: 20px;
   padding: 10px;
-}
-
-footer {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 25px;
-  justify-content: center;
-}
-
-footer p {
-  font-size: 1em;
-  font-weight: 600;
 }
 
 /* solve footer problem */
