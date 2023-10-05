@@ -5,4 +5,4 @@ Then we use the **Siri** formula to find the fat percentage of the body.
 
 **¡This one was my very first solo project!**
 
-**Look it here:** https://jairoramirezu.github.io/fatMesuarementWebApp/
+**Look it here:** https://jairoramirezu.github.io/Fat_Mesuarement_Web_App/
